@@ -1,5 +1,5 @@
 # Présentation *flash* du projet Charcot
--
+---
 
 Séminaire « Variation linguistique et Linguistique Computationnelle » — Rencontres Minutes.
 
