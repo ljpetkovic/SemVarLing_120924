@@ -35,6 +35,7 @@
 %\usepackage[backend=bibtex, style=authoryear, natbib=true, sorting=nty, backref=true]{biblatex}
 \usepackage[style=authoryear, maxbibnames=99, mincitenames=1, maxcitenames=2, backref=true, hyperref=true, dashed=false, firstinits=true, backend=bibtex, bibencoding=utf8, uniquename=false, uniquelist=false, natbib=true]{biblatex}
 \renewcommand*{\bibfont}{\footnotesize}
+\setbeamerfont{footnote}{size=\tiny}
 
 % Remove quotation marks from titles
 \DeclareFieldFormat[article,incollection,inproceedings,conference]{title}{#1} 
@@ -163,8 +164,8 @@
 \author[Ljudmila PETKOVIC]{\small \textbf{Ljudmila PETKOVIC}\textsuperscript{1,2,3}\\\medskip{\footnotesize\texttt{prenom.nom@sorbonne-universite.fr}}}
 \title[Origines et progrès du projet Charcot]{\fontsize{13pt}{13pt}\selectfont Origines et progrès du projet Charcot}
 %\subtitle{Approche \textit{PatternRank}}
-\institute [JE \og{}Humanités numériques\fg{}] {\tiny \textsuperscript{1} Sorbonne Université, Faculté des Lettres, \textsc{UFR} Littératures françaises et comparée, ED 3\\\textsuperscript{2} Centre d'étude de la langue et des littératures françaises (\textsc{CELLF}), \textsc{UMR 8599}\\\textsuperscript{3} Observatoire des textes, des idées et des corpus (\textsc{ObTIC})}
-\date[Variation linguistique$\dots$, 12/09/2024]{\scriptsize Séminaire \og{}Variation linguistique et Linguistique Computationnelle\fg{} \\ Rencontres Minutes\\Maison de la recherche, salle 117\\Paris, le 12 septembre 2024}
+\institute [JE \og{}Humanités numériques\fg{}] {\tiny \textsuperscript{1} Sorbonne Université, Faculté des Lettres, \textsc{UFR} Littératures françaises et comparée, \textsc{ED III} (\textsc{ED019})\\\textsuperscript{2} Centre d'étude de la langue et des littératures françaises (\textsc{CELLF}), \textsc{UMR 8599}\\\textsuperscript{3} Observatoire des textes, des idées et des corpus (\textsc{ObTIC})}
+\date[Variation linguistique$\dots$, 12/09/2024]{\scriptsize Séminaire \og{}Variation linguistique et Linguistique Computationnelle\fg{} \\ -- Rencontres Minutes --\\Maison de la recherche, salle 117\\Paris, le 12 septembre 2024}
 \usepackage{YTU}
 
 % defs
@@ -233,10 +234,15 @@
 
 \end{frame}
 
-\section[Introduction]{Introduction}
+\section[À propos du projet]{À propos du projet}
 \input{intro}
 
-\section[Timeline]{Timeline}
+\section[Problématique]{Problématique}
+%\input{objectif}
+\input{intertextualite}
+
+
+\section[\textit{Timeline} du projet]{Timeline du projet}
 \input{timeline}
 
 %\begin{frame}
@@ -274,6 +280,6 @@
 %\begin{frame}[allowframebreaks]{Références}
 %\printbibliography
 
-\end{frame}
+%\end{frame}
 
 \end{document}
